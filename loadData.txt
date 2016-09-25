@@ -1,0 +1,15 @@
+COPY part from 'part.tbl' with delimiter as '|';
+
+COPY partsupp from 'partsupp.tbl' with delimiter as '|';
+
+COPY supplier from 'supplier.tbl' with delimiter as '|';
+
+COPY customer from 'customer.tbl' with delimiter as '|';
+
+COPY lineitem from 'lineitem.tbl' with delimiter as '|';
+
+COPY orders from 'orders.tbl' with delimiter as '|';
+
+COPY region from 'region.tbl' with delimiter as '|';
+
+COPY nation from 'nation.tbl' with delimiter as '|';
